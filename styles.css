@@ -1,0 +1,67 @@
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 52px;
+    color: #7C9641;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+}
+
+#instructions-title {
+    margin-bottom: 0px;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.player .computer {
+    display: flex;
+    flex-direction: column;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 80px;
+}
+
+button {
+    background-color: rgb(211, 211, 197);
+    border-radius: 16px;
+    height: 200px;
+    width: 200px;
+    border: 0;
+}
+
+img {
+    max-height: 150px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 80px;
+}
+
+button:hover {
+    background-color: rgb(187, 187, 164);
+}
